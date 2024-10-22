@@ -1,0 +1,145 @@
+.todos_box {
+	padding-top: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	width: 600px;
+	height: 400px;
+	background-color: #ffffff;
+	margin-left: 30%;
+	box-shadow: 2px 1px 10px rgba(117, 117, 117, 0.388);
+	position: relative;
+}
+
+.input_box {
+	top: 0;
+	position: relative;
+	display: flex;
+	width: 600px;
+	height: 40px;
+	align-items: center;
+}
+
+.img_arrow {
+	width: 20px;
+	height: 20px;
+	opacity: 0.6;
+}
+
+.input_search {
+	position: absolute;
+	width: 91.3%;
+	border: none;
+	outline: none;
+	padding-left: 50px;
+	height: 37px;
+	font-size: 1.3rem;
+	font-style: italic;
+	border-bottom: 1px solid grey;
+}
+
+.input_search::placeholder {
+	font-size: 1.3rem;
+	font-style: italic;
+	opacity: 0.6;
+}
+
+.button_arrow {
+	position: absolute;
+	background: none;
+	border: none;
+}
+
+ul,
+li {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	gap: 5px;
+}
+
+.box_ul {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: left;
+	width: 640px;
+}
+
+.custom-checkbox {
+	border-bottom: 1px solid grey;
+	width: 600px;
+	padding-left: 20px;
+}
+
+.custom-checkbox .ant-checkbox-checked .ant-checkbox-inner {
+	background-color: #4caf50;
+	border-color: #7a7a7a;
+}
+
+.custom-checkbox .ant-checkbox-inner {
+	border-radius: 20px;
+}
+
+.completed-text {
+	text-decoration: line-through;
+	color: grey;
+}
+
+.base_text {
+	font-size: 1.1rem;
+}
+
+.group_btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	bottom: 30px;
+	gap: 50px;
+}
+
+.count {
+	font-size: 14px;
+	color: #7a7a7a;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+.add_btn {
+	box-sizing: border-box;
+	width: 100%;
+	background: none;
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+	border-bottom: 1px solid grey;
+	padding: 10px 0px;
+}
+
+.btn {
+	color: #7a7a7a;
+	width: 70px;
+	font-size: 12px;
+	box-sizing: border-box;
+}
+
+.btn_clear {
+	box-sizing: border-box;
+	border: none;
+	background: none;
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 5px 10px;
+	color: #7a7a7a;
+	&:hover {
+		border: 1px solid grey;
+	}
+}
